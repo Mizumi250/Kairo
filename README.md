@@ -26,3 +26,10 @@ php artisan db:seed   # if seeders exist
 ## Deploy
 
 Step-by-step instructions for this exact setup: **[DEPLOY.md](DEPLOY.md)**.
+
+Quick start with Docker (then open http://localhost:8080):
+
+```bash
+docker compose --env-file deploy.env up -d --build
+```
+
